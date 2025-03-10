@@ -9,6 +9,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Data analysis
+We provide here some basic elements about the data set and descriptive statistics on some variables of interest.  
+
+* First we load the data
+* second we print a summary
+
+```{r TradeDataLoading, echo=FALSE}
+TradeData <- read.csv("https://www.unsiap.or.jp/on_line/2024/RAP/Data/TradeData.csv")
+```
+
+We loaded the data set and compile the  report on `r Sys.Date()`
+
 ## My analysis that will be automated 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
